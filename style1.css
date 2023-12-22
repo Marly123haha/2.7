@@ -1,0 +1,62 @@
+body {
+    background-image: url(img/background.png);
+    background-size: cover;
+    max-width: 1062px;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    margin-left: 1px;
+}
+
+.menu-list {
+    display: flex;
+    list-style-type: none;
+    margin-top: 43px;
+    margin-left: 50px;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 100px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #663399;
+    font-size: 20px;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.main-text {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 72px;
+    margin-left: 1px;
+}
+
+.quote {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    margin-left: 1px;
+}
+
+.button-order {
+    all: unset;
+    padding: 22px 55px;
+    background: #663399;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 19px;
+    margin-left: 1px;
+    margin-top: 50px;
